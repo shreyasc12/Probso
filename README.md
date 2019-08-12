@@ -28,7 +28,7 @@ society to draw attention and help solve the problems quicker.
 # Functionalities
 
 
-* ### Registration
+1. ### Registration
 
 * Add citizen: A new firebase document containing citizen information is
 created.
@@ -36,13 +36,17 @@ created.
 * Add Authority: A new firebase document containing authority information is
 create.
 
-* ### Lodging a Complaint
+2. ### Lodging a Complaint
 * User can lodge complaints with related images and a proper description.
 
-* ### Social Complaints
+3. ### Social Complaints
 * Users can lodge a social complaint where users can vote to draw
 attention to the problems faced by a majority of the people.
 
-* ### Profile
+4. ### Profile
 * The citizen and the authority can view their profile in the app.
+
+
+# Screenshots
+![alt text](https://github.com/shreyasc12/probso/tree/master/docs/IMG-20181015-WA0011.jpg "Logo Title Text 1")
 
