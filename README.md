@@ -48,9 +48,9 @@ attention to the problems faced by a majority of the people.
 
 
 # Screenshots
-<img src="docs/IMG-20181015-WA0011.jpg" height = "450" width="350"> | <img src="docs/IMG-20181015-WA0012.jpg" height = "450" width="350">
+<img src="docs/IMG-20181015-WA0011.jpg" height = "500" width="350"> | <img src="docs/IMG-20181015-WA0012.jpg" height = "500" width="350">
 -------------------------------------------------------------- | --------------------------------------------------------------
-<img src="docs/IMG-20181015-WA0013.jpg" height = "450" width="350"> | <img src="docs/IMG-20181015-WA0007.jpg" height = "450" width="350">
+<img src="docs/IMG-20181015-WA0013.jpg" height = "500" width="350"> | <img src="docs/IMG-20181015-WA0007.jpg" height = "500" width="350">
 <br>
 
 ## PRESENTATION
