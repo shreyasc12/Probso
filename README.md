@@ -48,5 +48,11 @@ attention to the problems faced by a majority of the people.
 
 
 # Screenshots
-![alt text](https://github.com/shreyasc12/probso/tree/master/docs/IMG-20181015-WA0011.jpg "Logo Title Text 1")
+<img src="docs/IMG-20181015-WA0011.jpg" height = "450" width="350"> | <img src="docs/IMG-20181015-WA0012.jpg" height = "450" width="350">
+-------------------------------------------------------------- | --------------------------------------------------------------
+<img src="docs/IMG-20181015-WA0013.jpg" height = "450" width="350"> | <img src="docs/IMG-20181015-WA0007.jpg" height = "450" width="350">
+<br>
 
+## PRESENTATION
+
+https://drive.google.com/open?id=1qKc9sJPar1uzPMt2n9hGL3b9NjccO3G3
