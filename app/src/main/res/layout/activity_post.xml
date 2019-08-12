@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context=".PostActivity">
+
+
+    <ImageButton
+        android:id="@+id/selctimg"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@android:drawable/ic_input_add" />
+
+    <EditText
+        android:id="@+id/complaint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="215dp"
+        android:elevation="30dp"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="262dp"
+        android:layout_height="57dp"
+        android:layout_above="@+id/SUBMIT"
+        android:layout_centerHorizontal="true"
+        android:elevation="30dp"
+        android:ems="10"
+        android:hint="Write Description here..."
+        android:inputType="textMultiLine" />
+
+    <Spinner
+        android:id="@+id/spinner_post"
+        android:layout_width="228dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="132dp"
+        app:layout_constraintBottom_toTopOf="@+id/MobnoTextInputLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/AgeTextInputLayout"
+        app:layout_constraintTop_toBottomOf="@+id/AddressTextInputLayout" />
+
+    <Button
+        android:id="@+id/SUBMIT"
+        style="@style/SolidButtonStyle"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:text="SUBMIT" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="110dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        android:hint="Add Image"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+</RelativeLayout>

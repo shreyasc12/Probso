@@ -1,0 +1,253 @@
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+                        <TextView
+                            android:id="@+id/yourcomplaint"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="12dp"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:text="Your Complaint"
+                            android:textAllCaps="true"
+                            android:textColor="@color/wallet_primary_text_holo_light"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1.5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/background_dark" />
+
+                        <TextView
+                            android:id="@+id/textview11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:text="Title:"
+                            android:gravity="left"
+                            android:textAllCaps="true"
+                            android:textSize="16sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="title"
+                            android:textColor="#000"
+                            android:textSize="18sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1.5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/background_dark" />
+
+                        <TextView
+                            android:id="@+id/textview12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:gravity="left"
+                            android:padding="10dp"
+                            android:text="Description:"
+                            android:textAllCaps="true"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="desc"
+                            android:textColor="#555" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1.5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/background_dark" />
+
+                        <TextView
+                            android:id="@+id/textview10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="10dp"
+                            android:text="Image:"
+                            android:gravity="left"
+                            android:textAllCaps="true"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/complaint_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="10dp"
+                            android:adjustViewBounds="true"
+                            android:padding="10dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1.5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/background_dark" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textview15"
+                                android:layout_width="125dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:paddingTop="8dp"
+                                android:gravity="left"
+                                android:text="Complained By:"
+                                android:textColor="#555" />
+
+                            <TextView
+                                android:id="@+id/comp_from"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="15dp"
+                                android:paddingTop="8dp"
+                                android:text="complaint"
+                                android:textColor="#555" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textview19"
+                                android:layout_width="125dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:paddingTop="8dp"
+                                android:gravity="left"
+                                android:text="Address:"
+                                android:textColor="#555" />
+
+                            <TextView
+                                android:id="@+id/add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="15dp"
+                                android:paddingTop="8dp"
+                                android:text="complaint"
+                                android:textColor="#555" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textview14"
+                                android:layout_width="125dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:paddingTop="8dp"
+                                android:gravity="left"
+                                android:text="Contact Number:"
+                                android:textColor="#555" />
+
+                            <TextView
+                                android:id="@+id/usrmobno"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="15dp"
+                                android:paddingTop="8dp"
+                                android:gravity="left"
+                                android:text="mobile number"
+                                android:textColor="#555" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/usertimesstamp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:paddingTop="5dp"
+                            android:gravity="right"
+                            android:text="time"
+                            android:textColor="#555" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1.5dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@android:color/background_dark" />
+
+                        <Button
+                            android:id="@+id/reply"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Acknowledge"
+                            android:gravity="center"
+                            android:layout_marginLeft="120dp"
+                            android:theme="@style/PrimaryFlatButton" />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+
+    </ScrollView>
+</layout>
+
