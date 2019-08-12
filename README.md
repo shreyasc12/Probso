@@ -16,23 +16,33 @@ is raised till it is completed.
 the municipal corporation.
 
 # Scope
-*
-The proposed software product can be used by any citizen of India to raise
+
+* The proposed software product can be used by any citizen of India to raise
 complaints.
-*
-The system will also be used by the Municipal Corporation to solve them.
-*
-The system will also have a voting system for the social problems in the
+
+* The system will also be used by the Municipal Corporation to solve them.
+
+* The system will also have a voting system for the social problems in the
 society to draw attention and help solve the problems quicker.
 
 # Functionalities
 
-*
-### Registration
-*
-Add citizen: A new firebase document containing citizen information is
+
+* ### Registration
+
+* Add citizen: A new firebase document containing citizen information is
 created.
-*
-Add Authority: A new firebase document containing authority information is
+
+* Add Authority: A new firebase document containing authority information is
 create.
+
+* ### Lodging a Complaint
+* User can lodge complaints with related images and a proper description.
+
+* ### Social Complaints
+* Users can lodge a social complaint where users can vote to draw
+attention to the problems faced by a majority of the people.
+
+* ### Profile
+* The citizen and the authority can view their profile in the app.
 
