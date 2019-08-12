@@ -5,7 +5,7 @@
 This system is all about providing an easier way to communicate citizens with
 PMC(Pune Municipal Corporation) and register their complaints and issues with PMC in a smarter way and in a
 simple manner.
-*  
+* Unordered sub-list.  
 A citizen should be able to raise his query in a more easier way from
 anywhere in this world via internet and web portal.
 * 
